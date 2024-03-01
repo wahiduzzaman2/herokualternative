@@ -1,7 +1,7 @@
 import { app } from "./app.js";
 
 app.get("/", (req, res) => {
-  res.send("<h1>Working Fine</h1>");
+  res.send("<h1>Working Fine, Ok!</h1>");
 });
 
 app.route("/users").get((req, res, next) => {
